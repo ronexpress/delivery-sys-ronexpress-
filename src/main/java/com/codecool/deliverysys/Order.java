@@ -13,7 +13,7 @@ public class Order {
     private String name;
     private String customer;
 
-    public Order(int quantity, Stgit ring units, String name, String customer) {
+    public Order(int quantity, String units, String name, String customer) {
         this.id=idcount++;
         this.time=LocalDateTime.now();
         this.quantity = quantity;
